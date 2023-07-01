@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+/*Styling for the custom-made Button component.*/
+.button {
+    display: inline-block;
+    padding: 0.60rem 1.2rem;
+    border-radius: 2.5rem;
+    background-color: aliceblue;
+    font-size: 2.3rem;
+    font-family: 'Yatra One', cursive;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+/*Styling for when the user hovers over the button.*/
+.button:hover {
+    background-color: moccasin;
+    box-shadow: 5px 5px 5px black;
+}
+
+/*Styling for when there is clicked on the button.*/
+.button:active {
+    box-shadow: inset 2px 2px 10px black;
+}

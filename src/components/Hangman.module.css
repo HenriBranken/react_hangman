@@ -1,0 +1,5 @@
+/* In order for the Keyboard and Drawing to appear side-by-side, 
+   we set display to `inline-block` */
+.hangman {
+    display: inline-block;
+}

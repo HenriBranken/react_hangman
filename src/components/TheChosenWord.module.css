@@ -1,0 +1,39 @@
+/* The overall styling & layout for all the letters in `theChosenWord` */
+.answer-word {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+    margin: 1.5rem auto;
+}
+
+/* Styling to be applied if the user has picked a letter contained in the answer word */
+.answer-letter {
+    display: block;
+    border-bottom: solid 5px #000;
+    border-radius: 10px;
+    margin: 0 10px;
+    font-size: 3rem;
+    font-family: 'Yatra One', cursive;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+    background-color: thistle;
+    width: 60px;
+    height: 71px;
+    transition: background-color 800ms;
+}
+
+/* Styling to be applied if the user has not yet discovered this letter belonging to `theChosenWord`. */
+.unknown-letter {
+    display: block;
+    border-bottom: solid 5px #000;
+    border-radius: 10px;
+    margin: 0 10px;
+    font-size: 2rem;
+    font-family: 'Yatra One', cursive;
+    padding: 1rem;
+    width: 60px;
+    height: 71px;
+    text-align: center;
+}
