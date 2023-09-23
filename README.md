@@ -1,21 +1,53 @@
 # Hangman Game in React
----
+
+<img src="./example.png" width=450px/>
+
+**Table of Contents**
+
+- [Author](#author)
+- [Introduction](#introduction)
+- [Heroku Deployment](#heroku)
+- [Installation](#installation)
+- [Starting the Game](#start)
+- [The Rules of Hangman](#rules)
+
+<a id="author"></a>
+
 ## Author
+
 <a href="https://github.com/HenriBranken" target="_blank">Henri Branken</a>
+
+<a id="introduction"></a>
 
 ## Introduction
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app): `npx create-react-app`.
 
+Furthermore, this project showcases the creation of React JSX components and Frontend Manipulation to create a game application.
+
+<a id="heroku"></a>
+
+## Heroku Deployment
+
+The app may be found at the following site: [https://henri-hangman-b72d85b0311a.herokuapp.com/](https://henri-hangman-b72d85b0311a.herokuapp.com/)
+
+<a id="installation"></a>
+
 ## Installation
+
 - Navigate to the repo directory.
-- From the command-line, execute `npm install`.  This will create a `node_modules` folder containing all package dependencies.
+- From the command-line, execute `npm install`. This will create a `node_modules` folder containing all package dependencies.
+
+<a id="start"></a>
 
 ## Starting the Game
+
 After successful installation, execute the following from the command-line: `npm start`.
 This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view the app in your favourite browser.
 
-As a side-note, it would be best to view the app in Full-Screen Mode by pressing F11.
+As a side-note, it would be best to view the app in Full-Screen Mode by pressing **`F11`**.
+
+<a id="rules"></a>
 
 ## The Rules of Hangman
 
